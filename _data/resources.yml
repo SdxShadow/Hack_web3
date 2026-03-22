@@ -1,0 +1,331 @@
+- id: 00_INDEX
+  file: INDEX.md
+  title: "Web3 Hacker & Pentester Guide \u2014 Master Index"
+  description: The definitive advanced guide for blockchain security researchers,
+    smart contract auditors, and Web3 penetration testers. Covers EVM internals, DeFi
+    attacks, MEV, ZK security, Account Abstraction, and professional bug bounty methodology.
+  difficulty: All Levels
+  url: /
+  tags:
+  - web3
+  - security
+  - pentesting
+  - blockchain
+  - solidity
+  - DeFi
+  - MEV
+  - bug-bounty
+  - smart-contracts
+  - EVM
+- id: 01_BLOCKCHAIN_FUNDAMENTALS
+  file: BLOCKCHAIN_FUNDAMENTALS.md
+  title: "Module 01 \u2014 Blockchain Fundamentals for Security Researchers"
+  description: Deep dive into EVM architecture, opcode-level analysis, Solidity storage
+    internals, transaction lifecycle, gas mechanics, ABI encoding, consensus security,
+    L2 architecture, and cross-chain bridge attack surfaces for Web3 security researchers.
+  difficulty: " Beginner \u2192  Intermediate"
+  url: /modules/BLOCKCHAIN_FUNDAMENTALS
+  tags:
+  - EVM
+  - opcodes
+  - Solidity
+  - storage
+  - blockchain
+  - L2
+  - bridges
+  - delegatecall
+  - ABI
+  - gas
+- id: 02_RECON_AND_OSINT
+  file: RECON_AND_OSINT.md
+  title: "Module 02 \u2014 Reconnaissance & OSINT for Web3 Security"
+  description: 'Complete on-chain OSINT methodology for Web3 penetration testers:
+    Etherscan deep dives, proxy detection, admin tracing, deployer analysis, dependency
+    mapping, Dune Analytics queries, and blockchain forensics techniques.'
+  difficulty: " Beginner \u2192  Intermediate"
+  url: /modules/RECON_AND_OSINT
+  tags:
+  - OSINT
+  - recon
+  - blockchain
+  - Etherscan
+  - proxy
+  - DeFi
+  - forensics
+  - web3-security
+- id: 03_SMART_CONTRACT_VULNERABILITIES
+  file: SMART_CONTRACT_VULNERABILITIES.md
+  title: "Module 03 \u2014 Smart Contract Vulnerabilities: Complete Reference"
+  description: "Comprehensive reference for all smart contract vulnerability classes:\
+    \ reentrancy, integer overflow, access control flaws, flash loan attacks, oracle\
+    \ manipulation, delegatecall exploits, front-running, signature replay, DoS vectors,\
+    \ and more \u2014 each with vulnerable code, exploit PoC, fixed code, and real-world\
+    \ exploit references."
+  difficulty: " Intermediate \u2192  Advanced"
+  url: /modules/SMART_CONTRACT_VULNERABILITIES
+  tags:
+  - vulnerabilities
+  - reentrancy
+  - flash-loans
+  - oracles
+  - access-control
+  - solidity
+  - DeFi-security
+  - exploits
+  - PoC
+- id: 04_AUDIT_METHODOLOGY
+  file: AUDIT_METHODOLOGY.md
+  title: "Module 04 \u2014 Professional Smart Contract Audit Methodology"
+  description: 'Complete professional audit methodology for smart contract security:
+    scoping, threat modeling, control flow analysis, invariant identification, economic
+    attack surface modeling, composability risk assessment, test coverage analysis,
+    and professional finding documentation.'
+  difficulty: " Intermediate \u2192  Advanced"
+  url: /modules/AUDIT_METHODOLOGY
+  tags:
+  - audit-methodology
+  - threat-modeling
+  - invariants
+  - economic-attacks
+  - DeFi-audit
+  - security-workflow
+- id: 05_TOOLS_AND_FRAMEWORKS
+  file: TOOLS_AND_FRAMEWORKS.md
+  title: "Module 05 \u2014 Web3 Security Tools & Frameworks Deep Dive"
+  description: 'Hands-on guide to every Web3 security tool: Foundry (forge, cast,
+    anvil), Slither static analysis, Echidna fuzzing, Mythril symbolic execution,
+    Certora formal verification, Heimdall bytecode analysis, Tenderly debugging, and
+    scripting with ethers.js and web3.py.'
+  difficulty: ' Intermediate'
+  url: /modules/TOOLS_AND_FRAMEWORKS
+  tags:
+  - Foundry
+  - Slither
+  - Echidna
+  - Mythril
+  - Certora
+  - Heimdall
+  - web3-tools
+  - fuzzing
+  - static-analysis
+- id: 06_EXPLOIT_DEVELOPMENT
+  file: EXPLOIT_DEVELOPMENT.md
+  title: "Module 06 \u2014 Web3 Exploit Development & Professional PoC Writing"
+  description: 'Advanced guide to writing professional smart contract exploit proof-of-concepts
+    in Foundry: PoC structure, flash loan attack templates, reentrancy exploits, oracle
+    manipulation, governance takeover, signature forgery, proxy collision exploitation,
+    and responsible disclosure packaging.'
+  difficulty: ' Advanced'
+  url: /modules/EXPLOIT_DEVELOPMENT
+  tags:
+  - exploit-development
+  - Foundry
+  - PoC
+  - flash-loan
+  - reentrancy
+  - oracle-manipulation
+  - governance-attack
+  - bug-bounty
+- id: 07_DEFI_PROTOCOL_ATTACKS
+  file: DEFI_PROTOCOL_ATTACKS.md
+  title: "Module 07 \u2014 DeFi Protocol Attacks: AMMs, Lending, Bridges & More"
+  description: "Advanced analysis of DeFi-specific attack vectors: AMM sandwich attacks\
+    \ and JIT liquidity exploitation, lending protocol collateral manipulation, yield\
+    \ aggregator share inflation, stablecoin depeg attacks, bridge validator compromise,\
+    \ NFT marketplace exploits, governance takeovers, and perpetual DEX funding rate\
+    \ manipulation \u2014 with real-world case studies from $70M to $624M exploits."
+  difficulty: " Advanced \u2192  Expert"
+  url: /modules/DEFI_PROTOCOL_ATTACKS
+  tags:
+  - DeFi-attacks
+  - AMM
+  - flash-loan
+  - bridge-exploit
+  - governance-attack
+  - stablecoin
+  - Beanstalk
+  - Wormhole
+  - Ronin
+  - oracle-manipulation
+- id: 08_WEB3_DAPP_PENTESTING
+  file: WEB3_DAPP_PENTESTING.md
+  title: "Module 08 \u2014 Web3 dApp Pentesting: Frontend, Wallet & API Security"
+  description: Comprehensive Web3 dApp penetration testing guide covering wallet interaction
+    security (MetaMask, WalletConnect), frontend attack vectors, JSON-RPC endpoint
+    security, private key leakage detection, EIP-712 signature phishing, backend API
+    testing, GraphQL injection, ENS spoofing, address poisoning attacks, and hardware
+    wallet threat modeling.
+  difficulty: " Intermediate \u2192  Advanced"
+  url: /modules/WEB3_DAPP_PENTESTING
+  tags:
+  - dApp-pentesting
+  - MetaMask
+  - WalletConnect
+  - EIP-712
+  - phishing
+  - RPC-security
+  - wallet-security
+  - frontend-attacks
+- id: 09_MEV_AND_MEMPOOL
+  file: MEV_AND_MEMPOOL.md
+  title: "Module 09 \u2014 MEV & Mempool Security: Sandwich Attacks, Flashbots & Defense"
+  description: 'Complete guide to Maximal Extractable Value (MEV) and mempool security:
+    mempool monitoring with web3.py and ethers.js, front-running and sandwich attack
+    mechanics, Flashbots bundle submission, Proposer-Builder Separation (PBS), dark
+    pool transactions, time-bandit attacks, white-hat MEV rescue techniques, and MEV
+    defense strategies.'
+  difficulty: " Advanced \u2192  Expert"
+  url: /modules/MEV_AND_MEMPOOL
+  tags:
+  - MEV
+  - sandwich-attack
+  - Flashbots
+  - mempool
+  - front-running
+  - PBS
+  - dark-pool
+  - white-hat-MEV
+- id: 10_CTF_AND_WARGAMES
+  file: CTF_AND_WARGAMES.md
+  title: "[Module 1](./BLOCKCHAIN_FUNDAMENTALS.md)0 \u2014 Web3 CTF & Security\
+    \ Wargames Guide"
+  description: 'Complete guide to Web3 security CTF challenges and wargames: Ethernaut
+    solving methodology, Damn Vulnerable DeFi challenge approaches, Paradigm CTF strategies,
+    competitive audit platform comparison (Code4rena, Sherlock, CodeHawks, Immunefi),
+    additional practice platforms, speed auditing techniques, and CTF pattern recognition
+    cheat sheet.'
+  difficulty: " Beginner \u2192  Advanced"
+  url: /modules/CTF_AND_WARGAMES
+  tags:
+  - CTF
+  - Ethernaut
+  - Damn-Vulnerable-DeFi
+  - Paradigm-CTF
+  - Code4rena
+  - Sherlock
+  - Immunefi
+  - wargames
+- id: 11_REPORTING_AND_RESPONSIBLE_DISCLOSURE
+  file: REPORTING_AND_RESPONSIBLE_DISCLOSURE.md
+  title: "[Module 1](./BLOCKCHAIN_FUNDAMENTALS.md)1 \u2014 Responsible Disclosure\
+    \ & Professional Security Report Writing"
+  description: 'Complete guide to professional Web3 security reporting and responsible
+    disclosure: vulnerability severity scoring (Immunefi model), finding template
+    writing, executive summary structure, audit report format, CVD timeline, bug bounty
+    platform comparison, legal frameworks (CFAA, safe harbor), white-hat recovery
+    case studies, and disclosure communication templates.'
+  difficulty: ' Intermediate'
+  url: /modules/REPORTING_AND_RESPONSIBLE_DISCLOSURE
+  tags:
+  - responsible-disclosure
+  - bug-bounty
+  - security-reporting
+  - Immunefi
+  - finding-template
+  - CVD
+  - audit-report
+- id: 12_ADVANCED_TOPICS
+  file: ADVANCED_TOPICS.md
+  title: "[Module 1](./BLOCKCHAIN_FUNDAMENTALS.md)2 \u2014 Advanced Web3 Security:\
+    \ ZK, ERC-4337, Cross-Chain, Restaking"
+  description: Advanced Web3 security research covering formal verification with Certora
+    and Halmos, ZK proof vulnerabilities (under-constrained circuits, field arithmetic),
+    ERC-4337 account abstraction attacks, EIP-7702 execution model risks, intent-based
+    solver exploitation, LayerZero/Axelar/Hyperlane cross-chain security, EigenLayer
+    restaking risks, parallel EVM security, and AI+Web3 attack surfaces.
+  difficulty: ' Expert'
+  url: /modules/ADVANCED_TOPICS
+  tags:
+  - ZK-security
+  - ERC-4337
+  - account-abstraction
+  - EIP-7702
+  - cross-chain
+  - LayerZero
+  - formal-verification
+  - restaking
+  - advanced-topics
+- id: 13_MISSING_VULN_CLASSES
+  file: MISSING_VULN_CLASSES.md
+  title: "[Module 1](./BLOCKCHAIN_FUNDAMENTALS.md)3 \u2014 Missing Vulnerability\
+    \ Classes & Advanced Attack Patterns"
+  description: 'Advanced vulnerability classes not covered elsewhere: EIP-1153 transient
+    storage attacks, ERC-721/1155 callback reentrancy, permit phishing, multicall
+    msg.value reuse, read-only reentrancy, weird ERC-20, Solidity compiler bugs, return
+    bomb, Chainlink edge cases, TWAP manipulation, vault rounding, governance timelock
+    bypass, cross-chain replay, assembly pitfalls, staking bugs, signature malleability,
+    liquidation exploits, and proxy upgrade patterns.'
+  difficulty: " Advanced \u2192  Expert"
+  url: /modules/MISSING_VULN_CLASSES
+  tags:
+  - transient-storage
+  - EIP-1153
+  - read-only-reentrancy
+  - weird-ERC-20
+  - permit-phishing
+  - Chainlink
+  - TWAP
+  - vault-rounding
+  - proxy-upgrade
+- id: 14_BUG_BOUNTY_PLAYBOOK
+  file: BUG_BOUNTY_PLAYBOOK.md
+  title: "[Module 1](./BLOCKCHAIN_FUNDAMENTALS.md)4 \u2014 Bug Bounty Hunter's\
+    \ Playbook: Strategy, Tactics & Income"
+  description: 'Comprehensive bug bounty hunter''s operational guide: target selection
+    scoring matrix, 48-hour sprint methodology, ''Follow the Money'' asset flow analysis,
+    competitive audit winning strategies (Code4rena/Sherlock), Immunefi-specific submission
+    tactics, reputation building roadmap, mental models for finding bugs, automated
+    recon scripts, and realistic income calibration with historical payout examples.'
+  difficulty: " Advanced \u2192  Expert"
+  url: /modules/BUG_BOUNTY_PLAYBOOK
+  tags:
+  - bug-bounty
+  - Immunefi
+  - Code4rena
+  - Sherlock
+  - security-career
+  - audit-strategy
+  - web3-income
+  - bug-hunting
+- id: 15_EXPLOIT_RECREATIONS
+  file: EXPLOIT_RECREATIONS.md
+  title: "[Module 1](./BLOCKCHAIN_FUNDAMENTALS.md)5 \u2014 Real Exploit Recreations:\
+    \ Hands-On Lab with Foundry PoCs"
+  description: "Hands-on guide to recreating historical DeFi exploits in Foundry:\
+    \ The DAO reentrancy (2016), Harvest Finance flash loan oracle manipulation (2020),\
+    \ Beanstalk governance attack (2022), Nomad bridge exploit (2022), Curve/Vyper\
+    \ compiler reentrancy (2023), ERC-4626 inflation attack, and cross-chain signature\
+    \ replay \u2014 all with executable PoC templates and step-by-step analysis."
+  difficulty: " Advanced \u2192  Expert"
+  url: /modules/EXPLOIT_RECREATIONS
+  tags:
+  - exploit-recreation
+  - PoC
+  - The-DAO
+  - Harvest-Finance
+  - Beanstalk
+  - Nomad
+  - Curve-Vyper
+  - ERC-4626
+  - Foundry
+- id: 16_AUDIT_CHECKLIST_MASTER
+  file: AUDIT_CHECKLIST_MASTER.md
+  title: "[Module 1](./BLOCKCHAIN_FUNDAMENTALS.md)6 \u2014 Master Smart Contract\
+    \ Audit Checklist"
+  description: 'Complete master audit checklist for smart contract security: pre-audit
+    setup, per-function review (access control, input validation, CEI pattern, external
+    calls, math), token handling (weird ERC-20, fee-on-transfer, rebasing), oracle
+    validation, proxy and upgradeable contract review, DeFi-specific checklists (AMM,
+    lending, vault/ERC-4626, governance, bridge), signature/cryptography, gas/DoS,
+    MEV, economic security, and final pre-submission verification.'
+  difficulty: All Levels
+  url: /modules/AUDIT_CHECKLIST_MASTER
+  tags:
+  - audit-checklist
+  - security-review
+  - CEI-pattern
+  - oracle-check
+  - proxy-audit
+  - token-handling
+  - ERC-4626
+  - DeFi-checklist

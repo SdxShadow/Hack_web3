@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://SdxShadow.github.io/Hack_web3/sitemap.xml
+Sitemap: https://SdxShadow.github.io/Hack_web3/feed.xml
+
+# Disallow admin/draft paths
+Disallow: /_drafts/
+Disallow: /_site/
+Disallow: /node_modules/

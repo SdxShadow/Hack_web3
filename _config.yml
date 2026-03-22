@@ -1,0 +1,101 @@
+
+title: "Web3 Hacker & Pentester Guide"
+tagline: "The definitive publication-grade reference for blockchain security researchers, smart contract auditors, and Web3 penetration testers."
+description: "Advanced Web3 penetration testing guide covering EVM internals, smart contract vulnerabilities, DeFi attack vectors, MEV exploitation, ZK security, Account Abstraction, and professional bug bounty methodology."
+url: "https://SdxShadow.github.io"
+baseurl: "/Hack_web3"
+
+author:
+  name: "Web3 Security Research"
+  email: "team.sdxshadow@gmail.com"
+  twitter: ""
+  instagram: "https://www.instagram.com/sdxshadow/"
+  github: "https://github.com/SdxShadow"
+
+lang: "en-US"
+locale: "en_US"
+logo: "/assets/images/logo.png"
+twitter:
+  username: ""
+  card: ""
+social:
+  name: "Web3 Hacker & Pentester Guide"
+  links:
+    - https://github.com/SdxShadow/Hack_web3
+    - https://www.instagram.com/sdxshadow/
+
+og_image: "/assets/images/logo.png"
+
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
+collections:
+  modules:
+    output: true
+    permalink: /:collection/:name/
+
+safe: false
+incremental: false
+encoding: "utf-8"
+timezone: UTC
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .github
+  - "*.sh"
+  - README.md
+
+header_pages:
+  - INDEX.md
+  - modules/BLOCKCHAIN_FUNDAMENTALS.md
+  - modules/RECON_AND_OSINT.md
+  - modules/SMART_CONTRACT_VULNERABILITIES.md
+  - modules/AUDIT_METHODOLOGY.md
+  - modules/TOOLS_AND_FRAMEWORKS.md
+  - modules/EXPLOIT_DEVELOPMENT.md
+  - modules/DEFI_PROTOCOL_ATTACKS.md
+  - modules/WEB3_DAPP_PENTESTING.md
+  - modules/MEV_AND_MEMPOOL.md
+  - modules/CTF_AND_WARGAMES.md
+  - modules/REPORTING_AND_RESPONSIBLE_DISCLOSURE.md
+  - modules/ADVANCED_TOPICS.md
+  - modules/MISSING_VULN_CLASSES.md
+  - modules/BUG_BOUNTY_PLAYBOOK.md
+  - modules/EXPLOIT_RECREATIONS.md
+  - modules/AUDIT_CHECKLIST_MASTER.md
+
+google_analytics: "G-L0B77FL3E6"
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      author: "Web3 Security Research"
+      show_downloads: false
